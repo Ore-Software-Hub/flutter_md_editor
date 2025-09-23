@@ -1,0 +1,10 @@
+name: example_md_editor
+
+environment:
+  sdk: '^3.9.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  md_editor:
+    path: ../
