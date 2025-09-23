@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text('Input + Button (library)')),
       body: Padding(
         padding: const EdgeInsets.all(16),
-        child: Column(children: [MdEditor()]),
+        child: Column(children: [MdEditor(content: "")]),
       ),
     );
   }
