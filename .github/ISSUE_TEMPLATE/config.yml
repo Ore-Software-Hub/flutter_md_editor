@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://pub.dev/packages/md_editor
+    about: Please check the documentation before opening a new issue.
+  - name: 💬 Discussions
+    url: https://github.com/Ore-Software-Hub/flutter_md_editor/discussions
+    about: Use discussions for general questions or unstructured ideas.
