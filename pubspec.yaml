@@ -4,7 +4,7 @@ description: >
   It features a built-in toolbar for formatting and a live Markdown viewer, allowing users 
   to write, preview, and format Markdown content seamlessly within their Flutter applications. 
   Ideal for note-taking, documentation, or any app requiring Markdown support.
-version: 0.0.1
+version: 0.1.0
 homepage: https://labs.oresoftware.net/
 repository: https://github.com/Ore-Software-Hub/flutter_md_editor.git
 
