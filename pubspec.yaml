@@ -2,7 +2,7 @@ name: md_editor
 description: "A Markdown Editor with a toolbar builtin"
 version: 0.0.1
 homepage: https://labs.oresoftware.net/
-repository: https://github.com/Ore-Software-Hub/md_editor
+repository: https://github.com/Ore-Software-Hub/flutter_md_editor.git
 
 environment:
   sdk: ^3.9.2
