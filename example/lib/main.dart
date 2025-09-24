@@ -15,11 +15,10 @@ class HomePage extends StatelessWidget {
   const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Input + Button (library)')),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(children: [MdEditor(content: "")]),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('Markdown Editor')),
+        body: MdEditor(content: '# Markdown Editor'),
       ),
     );
   }

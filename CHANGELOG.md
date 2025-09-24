@@ -1,3 +1,8 @@
+## 0.1.1
+
+### Fixed
+- Removed `SizedBox` from `Column`
+
 ## 0.1.0
 
 ### Added

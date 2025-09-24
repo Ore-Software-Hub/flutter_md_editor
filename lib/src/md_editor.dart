@@ -199,8 +199,6 @@ class _MdEditorState extends State<MdEditor> {
               ],
             ),
           ),
-
-        const SizedBox(height: 100),
       ],
     );
   }
