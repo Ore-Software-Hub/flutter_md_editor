@@ -66,6 +66,8 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+![](assets/img/example.gif)
+
 ## Documentation
 
 See the [API reference](https://pub.dev/packages/md_editor) for more details.

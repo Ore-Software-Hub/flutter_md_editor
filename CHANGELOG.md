@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+### Fixed
+- The `onTextChanged` callback is now of type `void Function(String)`, no longer returning a String.
+- Added `example.gif` in readme.
+
+
 ## 0.1.2
 ### Changed
 - Added functionality to the applyStyle method to allow users to unapply markdown formatting (bold, italic, title) from selected text.

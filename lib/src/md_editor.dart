@@ -46,7 +46,7 @@ class MdEditor extends StatefulWidget {
   /// This function receives the updated content string.
   ///
   /// Note: This parameter is required if `editable` is true, as enforced by the `assert`.
-  final String Function(String content)? onTextChanged;
+  final void Function(String content)? onTextChanged;
 
   /// Creates an `MdEditor` widget.
   ///
@@ -224,6 +224,7 @@ class _MdEditorState extends State<MdEditor> {
                         setState(() {
                           isEditing = false;
                         });
+                        widget.onTextChanged!(textController.text);
                       },
                       icon: PhosphorIcon(PhosphorIconsBold.floppyDisk),
                     ),
